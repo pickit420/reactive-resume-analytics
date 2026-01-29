@@ -11,8 +11,8 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  IMAGE: pickit420/reactive-resume
-  GITH_IMAGE: lazy-media/reactive-resume
+  IMAGE: pickit420/reactive-resume-analytics
+  GITH_IMAGE: pickit420/reactive-resume-analytics
 
 jobs:
   build:
