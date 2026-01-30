@@ -69,11 +69,15 @@ msgstr "Cv'nizi oluşturma, güncelleme ve paylaşma gibi adımları kolaylaşt�
 msgid "A link has been copied to your clipboard."
 msgstr "Bağlantı panonuza kopyalandı."
 
+#: apps/client/src/components/copyright.tsx:30
+msgid "A passion project by <0>Amruth Pillai</0> ."
+msgstr ""
+
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "Girdiğiniz e-posta ile bağlantılı bir hesap varsa, e-postanıza bir şifre sıfırlama bağlantısı gönderilmiş olmalıdır."
 
-#: apps/client/src/components/copyright.tsx:30
+#: apps/client/src/components/copyright.tsx:39
 msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
 msgstr ""
 
@@ -1179,7 +1183,7 @@ msgstr "Yayınlayıcı"
 msgid "Raise an issue"
 msgstr "Bir sorunu dile getirin"
 
-#: apps/client/src/components/copyright.tsx:44
+#: apps/client/src/components/copyright.tsx:53
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:74

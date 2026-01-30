@@ -69,11 +69,15 @@ msgstr "உங்கள் விண்ணப்பத்தை resume -ஐ உ�
 msgid "A link has been copied to your clipboard."
 msgstr "உங்கள் கிளிப்போர்டுக்கு ஒரு இணைப்பு நகலெடுக்கப்பட்டது."
 
+#: apps/client/src/components/copyright.tsx:30
+msgid "A passion project by <0>Amruth Pillai</0> ."
+msgstr ""
+
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "நீங்கள் வழங்கிய மின்னஞ்சலுடன் கணக்கு இருந்தால், கடவுச்சொல் மீட்டமைப்பு இணைப்பு உங்கள் இன்பாக்ஸிற்கு அனுப்பப்பட்டிருக்க வேண்டும்."
 
-#: apps/client/src/components/copyright.tsx:30
+#: apps/client/src/components/copyright.tsx:39
 msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
 msgstr ""
 
@@ -1183,7 +1187,7 @@ msgstr ""
 msgid "Raise an issue"
 msgstr ""
 
-#: apps/client/src/components/copyright.tsx:44
+#: apps/client/src/components/copyright.tsx:53
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:74

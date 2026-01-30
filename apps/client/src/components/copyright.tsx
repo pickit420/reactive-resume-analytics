@@ -28,6 +28,15 @@ export const Copyright = ({ className }: Props) => (
     <span>{t`By the community, for the community.`}</span>
     <span>
       <Trans>
+        A passion project by{" "}
+        <a href="https://amruthpillai.com" target="_blank" rel="noopener noreferrer nofollow">
+          Amruth Pillai
+        </a>{" "}
+        .
+      </Trans>
+    </span>
+    <span>
+      <Trans>
         A project graciously adopted by{" "}
         <a
           href="https://github.com/sponsors/lazy-media"

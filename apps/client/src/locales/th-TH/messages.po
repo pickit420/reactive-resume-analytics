@@ -69,11 +69,15 @@ msgstr "เครื่องมือสร้างเรซูเม่ฟร
 msgid "A link has been copied to your clipboard."
 msgstr "ลิงก์ถูกคัดลอกไปยังคลิปบอร์ดแล้ว"
 
+#: apps/client/src/components/copyright.tsx:30
+msgid "A passion project by <0>Amruth Pillai</0> ."
+msgstr ""
+
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "ลิงก์รีเซ็ตรหัสผ่านควรจะถูกส่งไปยังกล่องขาเข้าของคุณ หากมีบัญชีอยู่พร้อมกับอีเมลที่คุณให้มา"
 
-#: apps/client/src/components/copyright.tsx:30
+#: apps/client/src/components/copyright.tsx:39
 msgid "A project graciously adopted by <0>Lazy Media</0> <1>(because someone had to... barely)</1>."
 msgstr ""
 
@@ -1179,7 +1183,7 @@ msgstr "สำนักพิมพ์"
 msgid "Raise an issue"
 msgstr "แจ้งปัญหา"
 
-#: apps/client/src/components/copyright.tsx:44
+#: apps/client/src/components/copyright.tsx:53
 #: apps/client/src/pages/auth/backup-otp/page.tsx:52
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/login/page.tsx:74
