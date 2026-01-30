@@ -149,7 +149,7 @@ jobs:
       - name: Update Docker Repository Description
         uses: peter-evans/dockerhub-description@v4.0.0
         with:
-          repository: pickit420/reactive-resume
+          repository: pickit420/reactive-resume-analytics
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_TOKEN }}
           readme-filepath: ./README.md
@@ -163,38 +163,5 @@ jobs:
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
           status: ${{ job.status }}
           title: "Release `${{ steps.meta.outputs.version }}`"
-          description: "A new version of Reactive Resume just dropped! 🚀"
-          url: "https://github.com/lazy-media/Reactive-Resume"
-
-      - name: Inform about the release on Public Discord
-        uses: sarisia/actions-status-discord@v1.14.3
-        if: success()
-        with:
-          username: Reactive Resume Release Bot
-          webhook: ${{ secrets.DISCORD_PUBLIC_WEBHOOK }}
-          status: ${{ job.status }}
-          title: "Release `${{ steps.meta.outputs.version }}`"
-          description: "A new version of Reactive Resume just dropped! 🚀"
-          url: "https://github.com/lazy-media/Reactive-Resume"
-
-      - name: Inform about the release on Gaming Discord
-        uses: sarisia/actions-status-discord@v1.14.3
-        if: success()
-        with:
-          username: Reactive Resume Release Bot
-          webhook: ${{ secrets.DISCORD_GAMING_WEBHOOK }}
-          status: ${{ job.status }}
-          title: "Release `${{ steps.meta.outputs.version }}`"
-          description: "A new version of Reactive Resume just dropped! 🚀"
-          url: "https://github.com/lazy-media/Reactive-Resume"
-
-      - name: Inform about the release on Reactive Resume Public Discord
-        uses: sarisia/actions-status-discord@v1.14.3
-        if: success()
-        with:
-          username: Reactive Resume Release Bot
-          webhook: ${{ secrets.DISCORD_REACTIVE_RESUME_WEBHOOK }}
-          status: ${{ job.status }}
-          title: "Release `${{ steps.meta.outputs.version }}`"
-          description: "A new version of Reactive Resume just dropped! 🚀"
+          description: "A new version of Reactive Resume Analytics just dropped! 🚀"
           url: "https://github.com/lazy-media/Reactive-Resume"
